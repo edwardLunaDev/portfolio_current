@@ -1,7 +1,7 @@
 {
-  "name": "front-end-starter",
+  "name": "edward-luna-portfolio",
   "version": "1.0.2",
-  "description": "Boilerplate front-end project with Vite, Vue 3, and Vue Router",
+  "description": "my portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/foxxyz/front-end-starter"
+    "url": "https://github.com/edwardLunaDev/portfolio_current"
   },
-  "author": "Ivo Janssen <hello@ivo.la>",
+  "author": "Edward Luna <hello@edwardluna.design>",
   "license": "MIT",
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.2.1",
