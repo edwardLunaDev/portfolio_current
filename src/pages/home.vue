@@ -1,13 +1,11 @@
 <template>
     <main>
-        <div>
-            <h1>You're Online</h1>
-        </div>
     </main>
 </template>
 
 <script>
 export default {
+    
 }
 </script>
 
@@ -17,10 +15,29 @@ main
     justify-content: center
     align-items: center
     height: 100%
-    background: linear-gradient(to bottom, #40e0d0, #2080ff)
-    color: white
-
-    h1
-        font-size: 2em
-        margin-bottom: .5em
+    .wrapper
+        width: 100%
+        height: 100%
+        display: flex
+        .upload
+            border-right: 2px dashed #efefef
+            padding: 0 1em
+            display: flex
+            flex: 1
+            flex-direction: column
+            justify-content: flex-start
+            height: 100%
+            .input-dialog
+                display: none
+            .file-btn
+                background: #0096ff
+                color: #fff
+                border: none
+                padding: 1em 3em
+                border-radius: 2em
+                // &:before // use later
+                //     content: '\f574'
+        .content
+            display: flex
+            flex: 3
 </style>
